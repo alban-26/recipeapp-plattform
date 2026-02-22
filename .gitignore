@@ -1,0 +1,32 @@
+# === IntelliJ / IDEs ===
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# === Gradle (falls du es irgendwo nutzt) ===
+.gradle/
+build/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Env / Secrets ===
+.env
+*.env
+.env.*
+
+# === Docker ===
+docker-compose.override.yml
+
+# Docker Volumes / Local Data
+postgres_data/
+elastic_data/
+keycloak_data/
+
+# Node / Kibana cache (falls entsteht)
+node_modules/
+
+# Local override configs
+*.local.yml
