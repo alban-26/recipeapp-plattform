@@ -1,0 +1,35 @@
+_format_version: "3.0"
+
+services:
+
+  - name: user-service
+    url: http://user-management:8082
+    routes:
+      - name: user-route
+        paths:
+          - /users
+        strip_path: false
+
+  - name: recipe-service
+    url: http://recipe:8081
+    routes:
+      - name: recipe-route
+        paths:
+          - /recipes
+        strip_path: false
+
+  - name: shopping-list-service
+    url: http://shopping-list:8083
+    routes:
+      - name: shopping-route
+        paths:
+          - /shopping
+        strip_path: false
+
+  - name: meal-plan-service
+    url: http://meal-plan:8084
+    routes:
+      - name: meal-route
+        paths:
+          - /mealPlans
+        strip_path: false
