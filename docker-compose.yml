@@ -179,6 +179,8 @@ services:
 
   user-management:
     image: user-management:1.0.0-SNAPSHOT
+    environment:
+      - QUARKUS_PROFILE=docker
     container_name: user-management-container
     depends_on:
       postgres:
@@ -195,6 +197,8 @@ services:
 
   recipe:
     image: myapp/recipe:1.0.0-SNAPSHOT
+    environment:
+      - QUARKUS_PROFILE=docker
     container_name: recipe-container
     depends_on:
       postgres:
@@ -215,6 +219,8 @@ services:
 
   shopping-list:
     image: myapp/shopping-list:1.0.0-SNAPSHOT
+    environment:
+      - QUARKUS_PROFILE=docker
     container_name: shopping-list-container
     depends_on:
       postgres:
@@ -233,6 +239,8 @@ services:
 
   meal-plan:
     image: myapp/meal-plan:1.0.0-SNAPSHOT
+    environment:
+      - QUARKUS_PROFILE=docker
     container_name: meal-plan-container
     depends_on:
       postgres:
