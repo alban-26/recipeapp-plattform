@@ -33,6 +33,8 @@ Insgesamt ist es ein praxisnahes Projekt, um neue Technologien auszuprobieren, B
 
 ## 🧱 Architekturübersicht
 
+> Hinweis: Alle Repositories, deren Name mit recipeapp- beginnt, sind Teil dieses Projekts. Jedes Repository bildet dabei einen eigenständigen Bestandteil der Gesamtarchitektur (z. B. Frontend, Microservices oder Infrastruktur).
+
 Die folgende Grafik zeigt die High-Level-Architektur der Anwendung und gibt einen Überblick über die wichtigsten Komponenten sowie deren Zusammenspiel.
 <img width="1424" height="890" alt="grafik" src="https://github.com/user-attachments/assets/b87f510f-589a-41ce-a1be-9664fc05292d" />
 
