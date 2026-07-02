@@ -8,6 +8,8 @@ Hier sind einige Einblicke in die Benutzeroberfläche der App.
 
 <img width="549" height="437" alt="grafik" src="https://github.com/user-attachments/assets/a602d7a7-68fe-4d0e-993a-beff9d7a2118" />
 
+<img width="639" height="437" alt="grafik" src="https://github.com/user-attachments/assets/15afe631-b26c-4aff-a7db-e524a49c54ee" />
+
 <img width="938" height="438" alt="grafik" src="https://github.com/user-attachments/assets/89143dd6-0b0a-4c28-ac63-653be683290f" />
 
 <img width="594" height="437" alt="grafik" src="https://github.com/user-attachments/assets/f84fff8b-c07e-4d8e-80cc-8d21b0d5418e" />
